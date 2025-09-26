@@ -2748,7 +2748,7 @@ a {
 
 .slider-item {
   flex: none;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .featured-pack-card {
@@ -3669,7 +3669,12 @@ a {
   max-width: 360px;
   width: 100%;
   transition: 0.3s ease;
-  height: 360px;
+  height: 300px;
+}
+@media screen and (max-width: 767px) {
+  .card{
+    height: auto;
+  }
 }
 .card h2 {
   font-size: 1.5rem;
@@ -3710,6 +3715,7 @@ a {
   margin-bottom: 30px;
 }
 .tkn_grid {
+  padding: 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -3728,5 +3734,10 @@ a {
   .slider-item {
     margin-right: 0;
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:767px) {
+  #abt{
+    flex-direction: column-reverse;
   }
 }
