@@ -2449,7 +2449,7 @@ a {
 .card-img {
   width: 444px;
   border-radius: 10px;
-  height: 376px;
+  height: auto;
 }
 .card-bottom {
   padding: 30px;
@@ -3715,9 +3715,10 @@ a {
 }
 .artist-img {
   width: 576px;
-  min-width: 465px;
+  max-width: 99%;
+  /* min-width: 465px; */
   border-radius: 20px;
-  height: 445px;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
